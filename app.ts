@@ -4,5 +4,6 @@ import './styles.scss'
 
 Swal.fire({
   title: 'Hello from parcel!',
-  html: `SweetAlert2 version ${Swal.version}`
+  html: `SweetAlert2 version ${Swal.version}`,
+  icon: 'success'
 })
