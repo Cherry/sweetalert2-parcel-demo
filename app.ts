@@ -6,4 +6,10 @@ Swal.fire({
   title: 'Hello from parcel!',
   html: `SweetAlert2 version ${Swal.version}`,
   icon: 'success'
-})
+}).then(() => {
+	Swal.fire({
+	  title: 'Hello from parcel 2!',
+	  html: `SweetAlert2 version ${Swal.version}`,
+	  icon: 'warning'
+	})
+};
